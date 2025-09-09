@@ -37,7 +37,7 @@ const App = () => {
       <TooltipProvider>
         <div className="min-h-screen bg-gradient-earth">
           <Navigation activeView={activeView} onViewChange={setActiveView} />
-          <main>
+          <main className="pt-20">
             {renderView()}
           </main>
         </div>
