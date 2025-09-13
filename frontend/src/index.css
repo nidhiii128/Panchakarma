@@ -127,7 +127,7 @@ All colors MUST be HSL - Healing-focused earth tones with sacred gold accents
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+     @apply bg-background text-foreground font-playfair;
     background: var(--gradient-earth);
     min-height: 100vh;
   }

@@ -22,11 +22,11 @@ const App = () => {
       case 'therapies':
         return <TherapiesView />;
       case 'schedule':
-        return <div className="container mx-auto p-6"><div className="therapy-card p-12 text-center"><h2 className="text-2xl font-bold text-gradient-primary mb-4">Schedule View</h2><p className="text-muted-foreground">Coming soon - Comprehensive scheduling system</p></div></div>;
+        return <div className="container mx-auto p-6"><div className="therapy-card p-12 text-center"><h2 className="text-2xl font-bold text-[#2F5249] mb-4">Schedule View</h2><p className="text-muted-foreground">Coming soon - Comprehensive scheduling system</p></div></div>;
       case 'patients':
-        return <div className="container mx-auto p-6"><div className="therapy-card p-12 text-center"><h2 className="text-2xl font-bold text-gradient-secondary mb-4">Patient Management</h2><p className="text-muted-foreground">Coming soon - Patient tracking and management</p></div></div>;
+        return <div className="container mx-auto p-6"><div className="therapy-card p-12 text-center"><h2 className="text-2xl font-bold text-[#2F5249] mb-4">Patient Management</h2><p className="text-muted-foreground">Coming soon - Patient tracking and management</p></div></div>;
       case 'notifications':
-        return <div className="container mx-auto p-6"><div className="therapy-card p-12 text-center"><h2 className="text-2xl font-bold text-gradient-primary mb-4">Notifications</h2><p className="text-muted-foreground">Coming soon - Real-time notifications system</p></div></div>;
+        return <div className="container mx-auto p-6"><div className="therapy-card p-12 text-center"><h2 className="text-2xl font-bold text-[#2F5249] mb-4">Notifications</h2><p className="text-muted-foreground">Coming soon - Real-time notifications system</p></div></div>;
       default:
         return <HeroSection />;
     }

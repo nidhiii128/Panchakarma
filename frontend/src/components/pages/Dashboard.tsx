@@ -84,7 +84,7 @@ export default function Dashboard() {
       <div className="therapy-card">
         <div className="flex items-center justify-between">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold text-gradient-primary">Welcome back, Patient</h1>
+            <h1 className="text-3xl font-bold text-[#2F5249]">Welcome back, Patient</h1>
             <p className="text-muted-foreground">Your healing journey continues with personalized Panchakarma therapies</p>
           </div>
           <div className="text-right">

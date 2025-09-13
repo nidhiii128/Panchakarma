@@ -20,16 +20,15 @@ export default function HeroSection() {
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
             <div className="flex items-center space-x-2 text-secondary">
-              <Sparkles className="w-5 h-5" />
-              <span className="text-sm font-medium tracking-wide uppercase">Traditional Ayurvedic Healing</span>
+              
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              <span className="text-gradient-primary">Panchakarma</span>
+              <span className="bg-gradient-to-r from-[#2F5249] to-[#748873] bg-clip-text text-transparent">Panchakarma</span>
               <br />
               <span className="text-foreground">Therapy</span>
-              <br />
-              <span className="text-gradient-secondary">System</span>
+<br />
+              <span className="bg-gradient-to-r text-4xl lg:text-5xl font-bold leading-tigh from-[#DEAA79] to-[#DEAA79] bg-clip-text text-transparent">Your Therapy, Your Way</span>
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
@@ -53,15 +52,15 @@ export default function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border/50">
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient-primary">500+</div>
+              <div className="text-3xl font-bold text-[#2F5249]">500+</div>
               <div className="text-sm text-muted-foreground">Happy Patients</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient-secondary">50+</div>
+              <div className="text-3xl font-bold text-[#2F5249]">50+</div>
               <div className="text-sm text-muted-foreground">Expert Practitioners</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient-primary">15+</div>
+              <div className="text-3xl font-bold text-[#2F5249]">15+</div>
               <div className="text-sm text-muted-foreground">Therapy Types</div>
             </div>
           </div>

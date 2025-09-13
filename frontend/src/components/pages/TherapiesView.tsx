@@ -227,7 +227,7 @@ export default function TherapiesView() {
       <div className="therapy-card">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-gradient-primary">Panchakarma Therapies</h1>
+            <h1 className="text-3xl font-bold text-[#2F5249]">Panchakarma Therapies</h1>
             <p className="text-muted-foreground mt-2">Discover traditional Ayurvedic healing treatments</p>
           </div>
           <Button variant="sacred">

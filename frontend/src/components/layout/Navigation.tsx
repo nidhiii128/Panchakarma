@@ -22,14 +22,13 @@ export default function Navigation({ activeView, onViewChange }: NavigationProps
   return (
     <>
       {/* Desktop / Tablet Navbar */}
-      <nav className="hidden md:flex items-center justify-between h-20 px-6 fixed top-0 left-0 w-full z-50 bg-white shadow">
+      <nav className="hidden md:flex items-center justify-between h-20 px-6 fixed top-0 left-0 w-full z-50 bg-[#FAF7F3] shadow-2xl border-b-4 border-[#D1A980]">
+
         {/* Brand */}
         <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">🕉</span>
-          </div>
+          
           <div>
-            <h1 className="text-xl font-bold text-gradient-primary">Panchakarma</h1>
+           <h1 className="text-3xl font-bold text-[#[#2F5249]]">Soujanya</h1>
             <p className="text-xs text-muted-foreground">Ayurvedic Healing</p>
           </div>
         </div>
